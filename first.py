@@ -1,1 +1,0 @@
-print("am a good nigga and \n this mfkr is also good")
