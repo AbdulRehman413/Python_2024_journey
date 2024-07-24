@@ -1,6 +1,1 @@
-
-print("hello world")
-print("hello world")
-
-print("hello world")
-print("hello world")
+print("am a good nigga and \n this mfkr is also good")
