@@ -1,3 +1,5 @@
 print("hello world statement")
 # print("hello world")
 print("hey am a \"good boy\" \nfatima is also a \"good girl\"")
+
+print("my name is \"Abdul Rehman\" \nand i am beginner in coding")
