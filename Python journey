@@ -1,1 +1,3 @@
-print("niga")
+print("hello world statement")
+# print("hello world")
+print("hey am a \"good boy\" \nfatima is also a \"good girl\"")
