@@ -1,0 +1,6 @@
+a = 2.333
+b = False
+c = "hairy nigga"
+
+print(a , b, c, sep="-" )
+
