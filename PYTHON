@@ -1,6 +1,15 @@
-a = 2.333
+# a = complex(2+33)
 b = False
-c = "hairy nigga"
+# c = "hairy nigga"
 
-print(a , b, c, sep="-" )
+# print(a , b, c, sep="-" )
 
+list1 = [8 , 2.2, [-4, 5], ["apple, nigga"]]
+print(list1)
+
+dict1 = {"name" : "abdul rehman" ,"age": 17, 
+          "can vote" : None  }
+print(dict1)
+
+tuple1 = (("parrot , nigga , gigga "))
+print(tuple1)
