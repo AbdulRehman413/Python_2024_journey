@@ -20,20 +20,30 @@
 # print(63//5)
 # print(67**2)
 
-a = (1)
-a1 = (2)
-a2 = (3)
-a3 = (4)
-a4 = (5)
-a5 = (6)
-a6 = (7)
-a7 = (8)
-a8 = (9)
-a9 = (10)
-c = 18
-print("whats your age?")
-age = int(input())
-if age > 18:
-    print("welcome to our website")
-if age < 18:
-    print("youre not old enough")
+# a = (1)
+# a1 = (2)
+# a2 = (3)
+# a3 = (4)
+# a4 = (5)
+# a5 = (6)
+# a6 = (7)
+# a7 = (8)
+# a8 = (9)
+# a9 = (10)
+# c = 18
+# print("whats your age?")
+# age = int(input())
+# if age > 18:
+#     print("welcome to our website")
+# if age < 18:
+#     print("youre not old enough")
+
+# a = 18
+# print("whats your age?:")
+# age = int(input())
+# if age  > 18:
+#      print("welcome to our website \n Please enter username and password")
+# if age < 18: 
+a  = "77"
+b = 2
+print(int(a) + int(b))
