@@ -50,6 +50,14 @@
 # a = input("enter your name:")
 # print("my name is ", a )
 
-a = input("enter first number:")
-b = input ("enter second number:")
-print(int(a) + int(b))
+# a = input("enter first number:")
+# b = input ("enter second number:")
+# print(int(a) + int(b))
+
+a = ("abdul")
+print(a[2])
+print(a[0])
+print(a[3])
+
+for character in a:
+    print(character)

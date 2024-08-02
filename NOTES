@@ -31,4 +31,14 @@
 #module opaerator: just the percentage %
 #for square root :  use double ** (25**3)
 #the coversion of one data type into another data type is called type casting
- print(int(a) + int(b)) if string has integers . than use this command type 
+
+#  print(int(a) + int(b)) if string has integers . than use this command  
+
+
+#  to count character in a string and to execute it 
+#  use     (for character in "")
+#  a = ("niggagigga ")
+# for character in a 
+# print(character)
+
+# this will count the numbers and execute them
