@@ -13,3 +13,22 @@
 # use the syntax \" and keep on
 # we can also put single inverted commas 
 #just use the same \'
+# separator syntax (sep="..") use any symbol to separate characters
+# end syntax (end="...") use to add something consistently at the end of code
+# FOUR TYPES OF VARIABLES 
+# a can store integer (any numbers)
+# b can store boolean (any true or false)
+# c can store String (names or words)
+# d can store none data type ?
+#list1 = collections of different data types 
+#mutable and non mutable means can be changed or cannot be 
+#changable is list1 
+#non changable is tuple1 
+#if u want to create a code that can be changed later , use (list1)
+#if u want a code that should not be changed , use (tuple1)
+#mapped command(dict1) = to store someones information with a collection of data types 
+#floor division operator : if dont want multiple values in the answer 
+#module opaerator: just the percentage %
+#for square root :  use double ** (25**3)
+#the coversion of one data type into another data type is called type casting
+ print(int(a) + int(b)) if string has integers . than use this command type 

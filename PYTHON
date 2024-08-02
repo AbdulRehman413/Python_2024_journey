@@ -44,6 +44,12 @@
 # if age  > 18:
 #      print("welcome to our website \n Please enter username and password")
 # if age < 18: 
-a  = "77"
-b = 2
+# a  = "77"
+# b = 2
+# print(int(a) + int(b))
+# a = input("enter your name:")
+# print("my name is ", a )
+
+a = input("enter first number:")
+b = input ("enter second number:")
 print(int(a) + int(b))
