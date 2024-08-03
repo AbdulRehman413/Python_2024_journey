@@ -1,4 +1,7 @@
 a = ("pneumonoultramicrosilicovolcanoconiosis")
 for character in a:
     print(character)
-    print("bish")
+    print(a[12])
+    print(a[11])
+    print(a[1])
+    print(a[3])
