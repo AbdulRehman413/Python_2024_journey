@@ -1,15 +1,4 @@
-print("hello world statement")
-# print("hello world")
-print("hey am a \"good boy\" \nnigasaurus is also a \"good girl\"")
-
-print("my name is \"Abdul Rehman\" \nand i am beginner in coding")
-print("hey boi")
-print(8/8)
-print(7*7666)
-print("hey nigga" , 8 , 9 ,sep="-" , end="fein\n")
-print("Abdul Rehman")
-print("something")
-print("nigga gigga")
-print("niggas for sale or out of sale")
-
-
+a = ("pneumonoultramicrosilicovolcanoconiosis")
+for character in a:
+    print(character)
+    print("bish")
