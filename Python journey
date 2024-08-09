@@ -1,2 +1,2 @@
 a = ("pneumonoultramicroscopicsilicovolcanoconiosis")
-print("Lung disease is also named as " , a , " which has ", len(a), "characters")
+print(a[5:34])
