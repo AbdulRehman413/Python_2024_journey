@@ -29,7 +29,7 @@
 #mapped command(dict1) = to store someones information with a collection of data types 
 #floor division operator : if dont want multiple values in the answer 
 #module opaerator: just the percentage %
-#for square root :  use double ** (25**3)
+#for square root :  use double * (25*3)
 #the coversion of one data type into another data type is called type casting
 
 #  print(int(a) + int(b)) if string has integers . than use this command  
@@ -41,4 +41,20 @@
 # for character in a 
 # print(character)
 
-# this will count the numbers and execute them
+# this will count the numbers and execute thema = ("pneumonoultramicrosilicovolcanoconiosis")
+
+
+# for character in a:
+#     print(character)
+#     print(a[12])
+#     print(a[11])
+#     print(a[1])
+#     print(a[3])
+
+
+# if a character has for example 12 words and we want only four \n we will write like [print(character name[0:5])]
+
+
+# for negative slicing , first count the characters of string and put the ratio of numbers of (-) how many u want to execute
+#if we wanna guess what answer we will get , subtract the counted number with the wanted ratio
+#strings are immutable= non changeable

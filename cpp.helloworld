@@ -1,0 +1,45 @@
+#include <iostream>
+int main(){
+       int age;
+       std::cout << "Enter your age";
+       std::cin >> age;
+
+if(age >= 18){
+       std::cout << "nigga 1 nigga 2 nigga 3 nigga 4";
+}
+       return 0;
+}
+
+   
+    // double for decimals
+    // int for non decimals 
+    // char for single characters 
+    // for char use single inverted commas 
+   // boolean refers to true or false
+   // string refers to text
+   // for string use double inverted commas
+   // conts are use for a constant variable the value u dont wanna be changed 
+   // namespace - use for multiple naming of a variable
+   // typedef code is use to represents startup code (int,double,char) and replace thier name
+   // using keword??????????????????????
+   // typedef and namespace are used before code startup(int main(){.......}).
+   // arthimetic operations = returns the result of specific opertaions(+ - * /)
+   // arithemetic code can be students+-*/= (any number) no spaces
+   // arithemetic can also solve large DMAS equations 
+   // type conversion =  value of one data type to another 
+   // implicit = automatic 
+   // explicit = precede value with new data type (int)
+   // we can use type conversions in percentage finding
+   // as in percentage we have to divide first so we represent the result witt double data type.
+   // if we want to add any name or word which has spaces then we will use (std::getline(std::cin\cout, name\age\...)).
+   // if getline data type is used after any code then we will write std::getline(std::cin >> std::ws, name or age).
+   //z = std::max(x, y); to compare two or more variables 
+  //z = std::min(x, y); to compare variables 
+  //z = std::sqrt(9);
+  //z = std::pow(4, 2); 4 is value ans 2 is power
+  //z = std::abs(-68); will always give u a positive value 
+  // z = round(variable);
+  // z = ceil(variable);= round up
+  // z = floor(variable); = round down;
+  //https://www.cplusplus.com/reference/cmath/ for more math similar codes 
+  // to calculate hypotenus oc=f triangle (c = A square + B square)
