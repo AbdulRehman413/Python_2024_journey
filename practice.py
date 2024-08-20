@@ -58,3 +58,35 @@
 # for negative slicing , first count the characters of string and put the ratio of numbers of (-) how many u want to execute
 #if we wanna guess what answer we will get , subtract the counted number with the wanted ratio
 #strings are immutable= non changeable
+
+
+# a = ("nigga ..... ?????? nigga")
+# print(a.upper())
+# print(a.lower())
+# print(a.rstrip(".?"))
+# print(a.replace("nigga", "rehman"))
+# print(a.split(" "))
+# blog = ("welcOME To Our WEBSITE")
+# print(blog.capitalize())
+# b = ("strings")
+# print(b.center(109))
+# print(a.count("nigga"))
+#print(a.endswith("nigga"))
+#c = ("ali is a good guy , and he likes to play cricket")
+#print(c.find("cricket"))
+#print(c.find("criciiii"))
+#d = ("NIGGagigga7877")
+#print(d.isalnum())
+#d2 = ("GigganiggA")
+#print(d2.isalpha())
+#print(d2.islower())
+#print(d2.isprintable())
+#print(d2.isspace())
+#d3 = ("To Kill A Mocking Bird")
+#print(d3.istitle())
+#print(d3.isupper())
+#print(a.startswith("!"))
+#print(d3.swapcase())
+#print(d3.title())
+#print(a.islower())
+

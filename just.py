@@ -1,12 +1,20 @@
-num = 18
-num = int(input("enter some shit"))
-if num<0:
-    print("number is negative")
-elif num>0:
-    if num<=10:
-        print("number is bewteen 1-10")
-    elif (num>10 and num<=20):
-        print("nummber is  bewteen 11-20")
-    else:
-        print("number is greater than 20")
-    print("good")
+time = int(input("Enter the time (1-12): "))
+region = input("Enter the region (AM/PM): ").strip().upper()
+
+# Check the time and region to determine the greeting
+if region == "AM":
+    if time in range(1, 12):
+        print("Good morning sir")
+    elif time == 12:
+        print("Good noon sir")  # Special case for 12 AM
+elif region == "PM":
+    if time in range(1, 6):
+        print("Good afternoon sir")
+    elif time in range(7, 12):
+        print("Good evening sir")
+    elif time == 12:
+        print("Good noon sir")  # Special case for 12 PM
+    elif time == 7 or time == 8 or time == 9 or time == 10 or time == 11:
+        print("Good night sir")
+else:
+    print("Invalid region. Please enter AM or PM.")
