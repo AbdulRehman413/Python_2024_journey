@@ -83,3 +83,13 @@
 # print(b.title()) converts the every first letter of string into capital
 # conditional operators (<,>,<=,>=,==,!=)
 # if  a statement is true it will evaluate into (if) if wromg then will use (else) to represnt it
+
+
+#match case command is use to match some different cases and execute the case that is most related and acceptable
+
+# in while loop command , the condition will repeat and repeat untill the condition and fully satisfied and it will come out of interpreter
+# for loops needs a variable or string to run 
+# while loop runs on some conditions , ill learn the conditions 
+
+# break command represents leaving the loop
+# continue command represents leaving the iteration
