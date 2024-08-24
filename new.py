@@ -1,30 +1,11 @@
-def calculategmean(a,b):
-    mean = (a*b)/(a+b)
-    print(mean)
+l = [6,7,6,6,7,6]
+print(l)
+print(type(l))
 
-def isgreater(a,b):
-    if (a>b):
-        print("first number is greater")
-    else:
-        print("second number is greater")
-def islesser(a,b):
-    if (a<b):
-        print("first number is lesser")
-    else:
-        print("second number is lesser")
-def isequal(a,b):
-
-    pass
+# print(l[0])
+# print(l[3])
+# print(l[5])
 
 
-a = 7
-b = 8
-isgreater(a,b)
-islesser(a,b)
-calculategmean(a,b)
-
-c = 8
-d = 9
-isgreater(c,d)
-islesser(c,d)
-calculategmean(c,d)
+print(l[-4])
+print(l[len(l)-3])
