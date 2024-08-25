@@ -1,11 +1,13 @@
-l = [6,7,6,6,7,6]
+l = [1,32,554,63]
 print(l)
-print(type(l))
-
-# print(l[0])
-# print(l[3])
-# print(l[5])
-
-
-print(l[-4])
-print(l[len(l)-3])
+l.append(7)
+l.sort(reverse=True)
+l.reverse()
+print(l.index(1))
+print(l.count(32))
+l.insert(2,7788)
+m = [100,5094,599]
+l.extend(m)
+j = l + m
+print(l)
+print(j)
