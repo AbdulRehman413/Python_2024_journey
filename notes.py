@@ -93,3 +93,28 @@
 
 # break command represents leaving the loop
 # continue command represents leaving the iteration
+
+
+# geometric mean = ab/a+b
+
+
+# def calculategmean(a,b):
+#     mean = (a*b)/(a+b)
+#     print(mean)
+
+# just a small exapmle of how to use functions(def) python, follow this method ......
+# lists can be changed but tuples are unchangeable
+# for lists and data entry , use square brackets for the value 
+
+# types of list:
+
+# l.append(  ) can be used to add integer , boolean, or string in the list
+# l.sort() arrange the list into ascending order
+# l.sort(reverse=True) will be arranged into descending order
+# l.reverse() just reverse the origional list
+# print(l.index(  )) returns the position of the mentioned int or string and represent it with number
+# and if multiple int or strings are present , it will only count out the first occurence
+# print(l.count(  )) returns how many times a string or int are occuring in the list
+# l.insert(two integers ,(one will tell the position, second will be the value to add)), works almost same as append
+# but u can choose where to add the value
+# l.extend(  ) is used to add 2 lists together , the second list will be add after the first list

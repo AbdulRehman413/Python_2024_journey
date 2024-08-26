@@ -139,3 +139,150 @@
 # while(x>0):
 #     print(x)
 #     x= x -1
+
+
+# for i in range(12):
+#     if (i==10):
+#         print("skip the iteration")
+#         continue
+#     print("5X",i , "=",5*i)
+
+
+# for i in range(12):
+#     print("5X",i+1, "=",5*(i+1))
+#     if(i==9):
+#         break
+
+# for i in range(1,101,2):
+#     print(i,end=" ")
+#     if(i==50):
+#         break
+#     else:
+#         print("mississippi")
+
+# for i in(2,3,4,5,6,7,8):
+#     if(i%2!=0):
+#         continue
+# print("mississippi")
+
+
+# i = int(input("enter the number to see its multiplicartion table: "))
+# for i in range(11):
+#     for x in range(1,11):
+#         print(x , "x", i+1, "=", x*(i+1))
+#         if(i==9):
+#             break
+
+
+
+# def calculategmean(a,b):
+#     mean = (a*b)/(a+b)
+#     print(mean)
+
+# def isgreater(a,b):
+#     if (a>b):
+#         print("first number is greater")
+#     else:
+#         print("second number is greater")
+# def islesser(a,b):
+#     if (a<b):
+#         print("first number is lesser")
+#     else:
+#         print("second number is lesser")
+# def isequal(a,b):
+
+#     pass
+
+
+# a = 7
+# b = 8
+# isgreater(a,b)
+# islesser(a,b)
+# calculategmean(a,b)
+
+# c = 8
+# d = 9
+# isgreater(c,d)
+# islesser(c,d)
+# calculategmean(c,d)
+
+
+# l = [6,7,6,6,7,6,"harry"]
+# print(l)
+# print(type(l))
+
+# # print(l[0])
+# # print(l[3])
+# # print(l[5])
+
+
+# # print(l[-4])
+# # print(l[len(l)-3])
+
+# if 7 in l:
+#     print("yes")
+# else:
+#     print("no")
+# if "arry" in "harry":
+#     print("yes")
+# else:
+#     print("NO")
+
+
+# l = [1,32,554,63]
+# print(l)
+# l.append(7)
+# l.sort(reverse=True)
+# l.reverse()
+# print(l.index(1))
+# print(l.count(32))
+# l.insert(2,7788)
+# m = [100,5094,599]
+# l.extend(m)
+# j = l + m
+# print(l)
+# print(j)
+
+# tup = (1,56,677,"green")
+# print(type(tup),tup)
+# print(tup[0])
+# print(tup[-2])
+# print(tup[3])
+# if 56 in tup:
+#     print("yes its present")
+# else:
+#     print("not present")
+
+#     # tuples are unchangable
+# print(tup[0:])
+
+
+# tup= (4,4,23,32,23,6,6,6,32,2)
+# res =tup.count(6)
+# print(res)
+# res= tup.index(6,5,9)
+# print(res)
+
+# res = len(tup)
+# print(res)
+
+
+# time = int(input("enter the time:"))
+# region = str(input("enter the region (AM/PM ONLY):")).upper().strip()
+
+# if region == "AM":
+#     if time in range (1,12):
+#         print("Good morning sir")
+#     elif time == 12:
+#         print("Good noon sir ")
+# elif region == "PM":
+#     if time in range (1,6):
+#         print("Good afternoon sir")
+#     elif time == 6:
+#         print("Good evening sir ")
+#     elif time in range (7,12):
+#         print("Good night sir ")
+#     elif time == 12 :
+#         print ("good night sir")
+# else:
+#     print("enter the correct region and time")
