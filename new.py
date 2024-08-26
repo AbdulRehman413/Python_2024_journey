@@ -1,13 +1,12 @@
-l = [1,32,554,63]
-print(l)
-l.append(7)
-l.sort(reverse=True)
-l.reverse()
-print(l.index(1))
-print(l.count(32))
-l.insert(2,7788)
-m = [100,5094,599]
-l.extend(m)
-j = l + m
-print(l)
-print(j)
+tup = (1,56,677,"green")
+print(type(tup),tup)
+print(tup[0])
+print(tup[-2])
+print(tup[3])
+if 56 in tup:
+    print("yes its present")
+else:
+    print("not present")
+
+    # tuples are unchangable
+print(tup[0:])
