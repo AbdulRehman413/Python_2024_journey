@@ -1,21 +1,20 @@
-l = ["Question no.1: Which country has the most satellites in the world"]
-A = ["A)Russia"]
-B = ["B)China"]
-C = ["C)Japan"]
-D = ["D)America"]
+def square(n):
+    '''take the value and returns its square'''
+    print(n**2)
+square(7)
+print(square.__doc__)
 
-print (l)
+letter = "my name is {} and i am from {}"
+country= "pakistan"
+name = "Abdul Rehman"
 
-print(A)
-print(B)
-print(C)
-print(D)
-q = str(input("So what's your final answer:")).upper()
+print(letter.format(name, country))
+print(f"my name is {name} and i live in {country}")
 
-if q == "A":
-    print("7 CROREEEEEEEE")
-else:
-    print("APKA JAWAABBBBBBBBBBBBB ....... GALAT HAI , AP KHALI HATH JAYEN GAY")
 
-    
+price = 49.9999
+seller = f"for only {price:.2f} dollars"
+print(seller)
 
+print(f"{2*49}")
+print(type(seller))
