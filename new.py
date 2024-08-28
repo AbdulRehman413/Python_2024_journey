@@ -1,11 +1,12 @@
-def factorial(n):
-    if n ==0 or n ==1:
-        return 1
-    else:
-        return n * factorial(n-1)
-    
+s = {2,2,4,4}
+print(s)
+print(type(s))
 
-print(factorial(3))
-print(factorial(7))
-print(factorial(5))
-print(factorial(0))
+s2 = {"bigga", 27, True , 67, 67}
+print(s2)
+
+abdul = set()
+print(type(abdul))
+
+for value in s2:
+    print(value)
