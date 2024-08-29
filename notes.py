@@ -118,3 +118,64 @@
 # l.insert(two integers ,(one will tell the position, second will be the value to add)), works almost same as append
 # but u can choose where to add the value
 # l.extend(  ) is used to add 2 lists together , the second list will be add after the first list
+
+
+
+# instead of using formats in strings we can use f_string
+# f_strings are use for data entry types , example is in the practice
+
+
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.
+# Flat is better than nested.
+# Sparse is better than dense.
+# Readability counts.
+# Special cases aren't special enough to break the rules.
+# Although practicality beats purity.
+# Errors should never pass silently.
+# Unless explicitly silenced.
+# In the face of ambiguity, refuse the temptation to guess.
+# There should be one-- and preferably only one --obvious way to do it.
+# Although that way may not be obvious at first unless you're Dutch.
+# Now is better than never.
+# Although never is often better than *right* now.
+# If the implementation is hard to explain, it's a bad idea.
+# If the implementation is easy to explain, it may be a good idea.
+# Namespaces are one honking great idea -- let's do more of those!
+
+
+
+
+# factorial means , if we put any value , its factorial method will be , it will keep multiplying with numbers 
+# in descending order untill it reaches to 1
+# the factorial of 0 is 1
+
+# sets does not repeat values in list
+# sets does not maintain order (ascending/descsending*)
+# we use curly brackets for sets
+
+
+
+# for union we need 2 sets , union is used to add 2 sets together
+# update is used to add the value of one set into the other set
+# intersection in sets will print out the common values in the existing sets 
+# every string in the sets need have their own inverted commas to exist as string
+# intersection update just points out the common values and remove the other non repeating values
+
+
+# symmetric difference = (A union B) - (A intersection B)
+# symmetric_difference will point out the uncommon values in the existing sets
+
+
+# difference will point out the uncommon values from the only first set
+# isdisjoint returns false if common values are present in both the sets
+# issuperset returns true if the only mentioned values of set2 are present in set1
+# isssubset is just the opposite of issuperset , it will show of set1 is subset of set2
+# add command is just use to add values in the sunject = hence sets can be changed
+# remove/discard are used to remove values from sets , just the differnce is , remove shows error if the 
+# mentioned value to be removed is not present in the set and discard doesnt show error
+# pop just pops out random value from the set
+# del just deletes out the whole set and if u look for it to print the deleted set , it will show error
+# clear command will just clear out the wanted command and will not show the error
