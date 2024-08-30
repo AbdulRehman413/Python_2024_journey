@@ -5,6 +5,8 @@ dict  = {
     43:"abdul sarfraz"
 }
 
+print(48)
+
 print(dict[1])
 
 info = {"name":"abdul Rehman", "age":17, "eligible":"NO"}
@@ -15,4 +17,5 @@ for key in info.keys():
 
 
 print(info.items())
+
 
