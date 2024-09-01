@@ -1,17 +1,18 @@
-ep = {323: 67, 23: 90, 48: 90}
-ep2 = {22: 78, 999: 65}
-ep.update(ep2)
-print(ep)
+for i in range(8):
+    print(i)
+    if i == 6:
+        break
+else:
+    print("nah")
 
-ep.clear()
-print(ep)
+i = 0
+while i<7:
+    print(i)
+    i = i+1
+else:
+    print("nah")
 
-ep.pop(323)
-print(ep)
-
-ep.popitem()
-print(ep)
-
-del ep
-print(ep)
-
+for i in range(5):
+    print("iteration no {} in for loop".format(i+1))
+else:
+    print("else block in loop")
