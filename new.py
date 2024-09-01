@@ -1,21 +1,17 @@
-dict  = {
-   85 : "moiz",
-    1: "sodagar",
-    48: "abdul rehman",
-    43:"abdul sarfraz"
-}
+ep = {323: 67, 23: 90, 48: 90}
+ep2 = {22: 78, 999: 65}
+ep.update(ep2)
+print(ep)
 
-print(48)
+ep.clear()
+print(ep)
 
-print(dict[1])
+ep.pop(323)
+print(ep)
 
-info = {"name":"abdul Rehman", "age":17, "eligible":"NO"}
-print(info)
+ep.popitem()
+print(ep)
 
-for key in info.keys():
-    print({key},{info[key]})
-
-
-print(info.items())
-
+del ep
+print(ep)
 

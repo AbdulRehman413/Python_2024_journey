@@ -179,3 +179,17 @@
 # pop just pops out random value from the set
 # del just deletes out the whole set and if u look for it to print the deleted set , it will show error
 # clear command will just clear out the wanted command and will not show the error
+
+
+
+# print(info.get[]) i dictionaries will not give error if unknown value is entered and will just show none
+# print(info[]) will show error if unknown value is entered
+# print(info.keys()) will point out all the keys used in the code and will not give values
+# print(info.values())will give out the values from the code
+# print(info.items())will give out each separate pairs
+# update method in dicts updates and add values of other dict into the wanted dict
+# clear command in dict just clears out the dict
+# pop method pops out and removes the mentioned value from the dict
+# (popitem) command pops out and removes the last value in the dict
+# del command just deletes out the whole set or dict and if u try to print out the del value , youll get an error
+# instead use clear/discard/remove to get no error
