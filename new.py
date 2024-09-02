@@ -1,6 +1,14 @@
-a = input("Enter the value: ")
-try:
-    for i in range(1,11):
-        print(f"{int(a)} X {i} = {int(a)*i}")
-except:
-    print("make sure to only use integers and try again")
+def func1():
+    try:
+        l = [1,3,4,6,7]
+        i = int(input("enter the index: "))
+        print(l[i])
+        return 1
+    except:
+        print("some error occured")
+        return 0 
+    finally:
+        print("niga is executed")
+
+x = func1()
+print(x)
