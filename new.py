@@ -1,14 +1,4 @@
-def func1():
-    try:
-        l = [1,3,4,6,7]
-        i = int(input("enter the index: "))
-        print(l[i])
-        return 1
-    except:
-        print("some error occured")
-        return 0 
-    finally:
-        print("niga is executed")
+a = int(input("enter any value bewteen 5 and 9: "))
+if a<5 or a>9:
+    raise ValueError("value should be bewteen 5 and 9")
 
-x = func1()
-print(x)
