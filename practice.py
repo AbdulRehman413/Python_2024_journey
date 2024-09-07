@@ -451,6 +451,103 @@
 
 
 
+# ep = {323: 67, 23: 90, 48: 90}
+# ep2 = {22: 78, 999: 65}
+# ep.update(ep2)
+# print(ep)
+
+# ep.clear()
+# print(ep)
+
+# ep.pop(323)
+# print(ep)
+
+# ep.popitem()
+# print(ep)
+
+# del ep
+# print(ep)
+
+# if ep==ep2:
+#     print("doesnt matter")
+# else:
+#     print("still doesnt matter")
+
+
+# for i in range(8):
+#     print(i)
+#     if i == 6:
+#         break
+# else:
+#     print("nah")
+
+# i = 0
+# while i<7:
+#     print(i)
+#     i = i+1
+# else:
+#     print("nah")
+
+# for i in range(5):
+#     print("iteration no {} in for loop".format(i+1))
+# else:
+#     print("else block in loop")
+
+
+
+
+# multiplication table:
+# a = input("enter the value: ")
+
+# for i in range(1,11):
+#     print(f"{int(a)} X {i} = {int(a)*i}")
+
+# a = input("Enter the value: ")
+#  try:
+#     for i in range(1,11):
+#         print(f"{int(a)} X {i} = {int(a)*i}")
+# except:
+#     print("make sure to only use integers and try again")
+
+
+
+
+# def func1():
+#     try:
+#         l = [1,3,4,6,7]
+#         i = int(input("enter the index: "))
+#         print(l[i])
+#         return 1
+#     except:
+#         print("some error occured")
+#         return 0 
+#     finally:
+#         print("niga is executed")
+
+# x = func1()
+# print(x)
+
+
+# def calculationtable():
+#     x = int(input("enter the value: "))
+#     try:
+#         for i in range(1,11):
+#             print(f"{int(x)} X {i} = {int(x)*i}")
+#     except:
+#         print("please enter the correct integer")
+#     finally:
+#         print("yeah its correct")
+
+
+# x = calculationtable()
+# print(x)
+
+
+# a = int(input("enter any value bewteen 5 and 9: "))
+# if a<5 or a>9:
+#     raise ValueError("value should be bewteen 5 and 9")
+
+
 
 
 

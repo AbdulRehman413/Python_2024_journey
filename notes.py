@@ -193,3 +193,17 @@
 # (popitem) command pops out and removes the last value in the dict
 # del command just deletes out the whole set or dict and if u try to print out the del value , youll get an error
 # instead use clear/discard/remove to get no error
+
+
+# yes we can use else with for and while loop , will work and try ro learn more about this
+
+# try and except command can only be used together and can never be used separately
+# first with try command , the user will use the code and if he doesnt put value as needed then the except will show him error and tell him to use it rightfully
+# we can handle different types of error with this command including valueerror and index error
+
+
+# with any kind of error normal print function sometimes does not print the written String 
+# so to avoid that we use finally command 
+# finally command can only be accessible with try and except commands 
+# return command always works in function (def)
+# finally is always executed in every case
