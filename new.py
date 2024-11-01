@@ -1,6 +1,5 @@
-year = int(input("Enter year to find if its leap or not:  "))
-if year % 4 ==0:
-    print("this year is a leap year")
+int = int(input("add integer to check if its even or odd: "))
+if int % 2 == 0:
+    print("number is even")
 else:
-    print("this year is not a leap year")
-
+    print("number is odd")
