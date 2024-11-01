@@ -548,6 +548,13 @@
 #     raise ValueError("value should be bewteen 5 and 9")
 
 
+# marks = [12,22,455,643,45]
+# index = 0
+# for mark in marks:
+#     print(mark)
+#     if (index == 1):
+#         print("this results is of abdul rehman")
+#     index +=1
 
 
 

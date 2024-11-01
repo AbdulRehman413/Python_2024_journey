@@ -8,7 +8,7 @@ if(age >= 18){
        std::cout << "nigga 1 nigga 2 nigga 3 nigga 4";
 }
        return 0;
-}
+}>>
 
    
     // double for decimals
