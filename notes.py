@@ -207,3 +207,9 @@
 # finally command can only be accessible with try and except commands 
 # return command always works in function (def)
 # finally is always executed in every case
+
+
+# short hand if else statement is used in simple codes and if u try to use it in complex code 
+# if spoils the read abillity of the code 
+# maintainence of code is important
+# a built-in function that allows you to iterate through a sequence and keep track of the index of each element.(index+=1)

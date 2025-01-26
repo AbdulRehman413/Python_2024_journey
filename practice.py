@@ -548,18 +548,68 @@
 #     raise ValueError("value should be bewteen 5 and 9")
 
 
-# marks = [12,22,455,643,45]
+
+# choice = int(input("Press 1 for Code and 2 for Decode: "))
+# if choice == 1:
+#     code  = (input("Enter the value you want to code: "))
+#     coding = []
+#     coding = True
+#     if coding:
+#         if (len(code)>=3):
+#             a1 = "jjd"
+#             a2 = "sas"
+#             encoded = a1 + code[1:] + code[0] + a2
+#             print(encoded)
+#     else:
+#             print("Your Code should be at least 3 letters long.")
+
+# elif choice == 2:
+#      code = input("Enter the value you want to decode: ")
+#      coding = False
+    
+#      if (len(code)>=3):
+        
+#             code =  code[3:-3] 
+#             decoded = code[-1] + code[:-1] 
+#             print(decoded)
+#      else:
+#             print("enter correct value to decode")
+
+#     a = 999
+# b = 88828
+# print(a)if a>b else print("=")if a==b else print(b)
+    
+    
+    
+    
+    
+    
+    
+    # a = 333
+# b = 2929
+# print("a") if a>b else print("b") if a<b else print("B")
+
+# marks = [12,34,45,65,34,99]
 # index = 0
 # for mark in marks:
 #     print(mark)
-#     if (index == 1):
-#         print("this results is of abdul rehman")
+#     if (index==3):
+#         print("you've got 65 marks")
 #     index +=1
 
+# marks = [12,34,45,65,34,99]
+# for index, mark in enumerate(marks, start=1):
+#     print(mark)
+#     if (index==5):
+#         print("you've got shit marks")
 
+# from math import sqrt , pi
+# result = sqrt(16)* pi
+# print(result)
 
-# year = int(input("Enter year to find if its leap or not:  "))
-# if year % 4 ==0:
-#     print("this year is a leap year")
-# else:
-#     print("this year is not a leap year")
+# import math
+# print(dir(math))
+
+# from math import pi, sqrt
+# result = sqrt(81)
+# print(result)
