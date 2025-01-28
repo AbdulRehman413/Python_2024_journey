@@ -1,11 +1,13 @@
-x = 4
-print(x)
+f = open('myfile.txt', 'r')
+print(f)
+text = f.read()
+print(text)
+f.close()
 
-def hello():
-    x =5 
-    print(x)
-    print(f"the local variable is {x}")
-    print("hello nigga")
-    
-hello()
-print(f"the global variable is {x}")
+
+
+f = open('myfile.txt', 'a')
+print(f)
+f.write("niggas in paris")
+f.close()
+

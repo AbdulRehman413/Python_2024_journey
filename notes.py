@@ -213,3 +213,5 @@
 # if spoils the read abillity of the code 
 # maintainence of code is important
 # a built-in function that allows you to iterate through a sequence and keep track of the index of each element.(index+=1)
+
+# local variable is defined with in the function and global is defined outside the function

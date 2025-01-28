@@ -655,3 +655,21 @@
 # for folders in folder:
 #     print(folders)
 #     print (os.listdir(f"data/{folders}"))
+
+
+# x = 4
+# print(x)
+
+# def hello():
+#     global x
+#     x = 23
+#     x =5 
+#     print(x)
+#     print(f"the local variable is {x}")
+#     print("hello nigga")
+    
+# hello()
+# print(f"the global variable is {x}")
+
+with open('myfile.txt', 'a') as f:
+    f.write("hey i am inside u")
