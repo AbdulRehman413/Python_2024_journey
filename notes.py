@@ -215,3 +215,7 @@
 # a built-in function that allows you to iterate through a sequence and keep track of the index of each element.(index+=1)
 
 # local variable is defined with in the function and global is defined outside the function
+
+
+# tell() functions tells after how many characters after seeking
+# truncate() function allows the user to have or limit the number of characters
