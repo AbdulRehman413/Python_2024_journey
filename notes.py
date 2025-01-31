@@ -222,3 +222,5 @@
 
 
 # a use of map function e.g u can find the cube of a whole list and its simple af
+# filter funtion just filters or removes characters according to the given condition and give output
+# reduce function factorizes the list
