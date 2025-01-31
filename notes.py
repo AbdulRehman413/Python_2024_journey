@@ -219,3 +219,6 @@
 # seek() function allows the user to skip caharcter if he wants and then continue to read upcoming character according to user's choice 
 # tell() functions tells after how many characters after seeking
 # truncate() function allows the user to have or limit the number of characters
+
+
+# a use of map function e.g u can find the cube of a whole list and its simple af
