@@ -705,3 +705,11 @@
 # lines = ['line 1\n', 'line 2\n', 'line 3\n']
 # f.writelines(lines)
 # f.close()
+
+
+# with open('myfile.txt', 'w') as f:
+#     # print(type(f))
+#     f.write('hello world')
+#     f.truncate(7)
+#     with open('myfile.txt', 'r') as f:
+#         print(f.read())
