@@ -1,4 +1,5 @@
-f = open('myfile.txt2', 'w')
-lines = ['line 1\n', 'line 2\n', 'line 3\n']
-f.writelines(lines)
-f.close()
+with open('myfile.txt', 'r') as f:
+    print(type(f))
+    f.seek(10)
+    data = f.read(5)
+    print(data)

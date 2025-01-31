@@ -699,3 +699,9 @@
 #     print(f"marks of student {i} in ict is: {m2}")
 #     print(f"marks of student {i} in english is: {m3}")
 #     print (line)
+
+
+# f = open('myfile.txt2', 'w')
+# lines = ['line 1\n', 'line 2\n', 'line 3\n']
+# f.writelines(lines)
+# f.close()
