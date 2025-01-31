@@ -1,5 +1,4 @@
-cube = lambda x: x*x*x
 l = [3,34,54,1,2,8,5]
-newl = list(map(cube, l))
-print(newl)
-
+ff = lambda x: x>4
+nl = list(filter(ff,l))
+print(nl)
