@@ -1,6 +1,4 @@
-from functools import reduce
-
-n = [1,2,3,4,5]
-sum = lambda x,y: x+y
-r = reduce(sum,n)
-print(r)
+a = [1,2,43]
+b = [1,2,43]
+print(a==b) #compares exact location of object
+print(a is b)# compares the value of object
