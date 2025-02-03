@@ -63,6 +63,5 @@ while True:
             print("User score: ",user_score)
             print("Computers score: ",computer_score)
             
-    else:
-        print("Please choose bewteen Rock, Paper and Scissors")
+    
             
