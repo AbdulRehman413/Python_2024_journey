@@ -22,7 +22,6 @@ while True:
         print("User score: ",user_score)
         print("Computers score: ",computer_score)
         
-        
     elif user_choice == paper and computer_choice == rock:
         print("Paper beats rock, paper wins!")
         user_score +=1
