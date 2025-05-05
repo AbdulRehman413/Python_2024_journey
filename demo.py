@@ -21,23 +21,37 @@
 
 
 
-class person:
+# class person:
     
     
 
-    def __init__(self,n,o):
-        print("i am a person")
-        self.name = n
-        self. occ = o
+#     def __init__(self,n,o):
+#         print("i am a person")
+#         self.name = n
+#         self. occ = o
 
-    def info(self):
-           print(f"{self.name} is a {self.occ}")
+#     def info(self):
+#            print(f"{self.name} is a {self.occ}")
     
-a = person("abdul", "student")
-b = person("hassan", "developer")
-# c = person()
+# a = person("abdul", "student")
+# b = person("hassan", "developer")
+# # c = person()
 
-a.info()
-b.info()
-# c.info()
+# a.info()
+# b.info()
+# # c.info()
 
+
+
+def greet(fx):
+    def mfx():
+        print("Good morning")
+        fx()
+        print("Thanks for using this function")
+    return mfx
+    
+@greet 
+def hello():
+    print("hello world ")
+
+hello()
