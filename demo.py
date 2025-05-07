@@ -98,10 +98,35 @@
 # a1.showdetails()
 # a1.showlan()
 
-class employee:
-    def __init__(self):
-        self.__name = "Harry"
+# class employee:
+#     def __init__(self):
+#         self.__name = "abdul"
 
-a = employee()
-print(a._employee__name)
-print(a.__dir__())    
+# a = employee()
+# print(a._employee__name)
+# print(a.__dir__())    
+
+
+# write a program with number of books as 2 instance variables. write a program to create a library from this library class and show how 
+# u can print all books , add a book and get the number of books using different methods, show that your program doesnt presist the book
+# after the program is stopped 
+
+
+class math:
+
+    def __init__(self, num):
+        self.num = num
+
+    def addtonum(self, n):
+        self.num = self.num + n
+
+    @staticmethod
+    def add(a, b):
+        return a+b
+    
+a = math(5)
+print(a.num)
+a.addtonum(7)
+print(a.num)
+print(math.add(69,69))
+print(a.add(69, 69))

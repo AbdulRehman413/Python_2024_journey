@@ -225,3 +225,5 @@
 # filter funtion just filters or removes characters according to the given condition and give output
 # reduce function factorizes the list
 
+
+#is it imp to add self to make a method in class = No (interview question)
