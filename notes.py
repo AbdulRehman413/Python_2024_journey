@@ -227,3 +227,5 @@
 
 
 #is it imp to add self to make a method in class = No (interview question)
+# theres a diff between class and instance variables , the class variables applies to all aspects of class while 
+#  instance variables can be modified to apply to only some aspect of class
