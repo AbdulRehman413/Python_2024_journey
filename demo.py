@@ -107,9 +107,6 @@
 # print(a.__dir__())    
 
 
-# write a program with number of books as 2 instance variables. write a program to create a library from this library class and show how 
-# u can print all books , add a book and get the number of books using different methods, show that your program doesnt presist the book
-# after the program is stopped 
 
 
 # class math:
@@ -133,22 +130,47 @@
 
 
 
-class employee:
-    companyname = "lenovo"
-    noofemployees = 0
-    def __init__(self, name):
-        self.name = name 
-        self.raise_amount = 0.02
-        employee.noofemployees +=1
+# class employee:
+#     companyname = "lenovo"
+#     noofemployees = 0
+#     def __init__(self, name):
+#         self.name = name 
+#         self.raise_amount = 0.02
+#         employee.noofemployees +=1
 
-    def showdata(self):
-        print(f"The name of the employee is {self.name} and the raise amount in {self.companyname} consisting of {self.noofemployees} employee is {self.raise_amount}")
+#     def showdata(self):
+#         print(f"The name of the employee is {self.name} and the raise amount in {self.companyname} consisting of {self.noofemployees} employee is {self.raise_amount}")
 
-a = employee("Harry")
-a.raise_amount = 5
-a.companyname = "Dell"
-a.showdata()
-# employee.showdata(a)
-b = employee("rohan")
-b.raise_amount = 5
-b.showdata()
+# a = employee("Harry")
+# a.raise_amount = 5
+# a.companyname = "Dell"
+# a.showdata()
+# # employee.showdata(a)
+# b = employee("rohan")
+# b.raise_amount = 5
+# # b.showdata()
+
+# write a program with number of books as 2 instance variables. write a program to create a library from this library class and show how 
+# u can print all books , add a book and get the number of books using different methods, show that your program doesnt presist the book
+# after the program is stopped 
+
+
+class library:
+    noofbooks = 0
+    def __init__(self, name):       
+        self.name = name
+        library.noofbooks +=1
+
+    def showbooks(self):
+        print(f"the books named {self.name} are {self.noofbooks} in this library")
+
+a = library("atomic habits")
+# a.noofbooks = 7
+a.showbooks()
+b = library("The 5AM club")
+# b.noofbooks = 18
+b.showbooks()
+    
+
+
+
