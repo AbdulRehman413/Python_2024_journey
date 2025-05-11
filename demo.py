@@ -186,6 +186,6 @@ class employee:
 a = employee()
 a.name = ("hassan")
 a.show()
-a.changecompanyname("rockstar")
+a.changecompanyname("samsung")
 a.show()
 print(employee.company)
