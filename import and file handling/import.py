@@ -4,3 +4,4 @@ print(result)
 
 import math
 print(dir(math))
+print("nothig")
