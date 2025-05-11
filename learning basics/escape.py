@@ -1,0 +1,1 @@
+print("Am a good person and \nThis person is also good")
