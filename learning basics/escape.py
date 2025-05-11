@@ -1,1 +1,6 @@
 print("Am a good person and \nThis person is also good")
+print("hey am a \"good boy\" \nfatima is also a \"good girl\"")
+print(7*7666)
+print("hey brother" , 8 , 9 ,sep="-" , end="fein\n")
+print("Abdul Rehman")
+print("something")
