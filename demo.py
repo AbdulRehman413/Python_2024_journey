@@ -30,6 +30,16 @@
 #         self.name = n
 #         self. occ = o
 
+#    def changecompanyname(cls, newcompany):
+#         cls.company = newcompany
+
+
+# a = employee()
+# a.name = ("hassan")
+# a.show()
+# a.changecompanyname("samsung")
+# a.show()
+# print(employee.company)
 #     def info(self):
 #            print(f"{self.name} is a {self.occ}")
     
@@ -173,19 +183,11 @@
 
 
 
-class employee:
-    company = "apple"
-    def show(self):
-        print(f"The name of the company is {self.company} in which {self.name} works ")
+# class employee:
+#     company = "apple"
+#     def show(self):
+#         print(f"The name of the company is {self.company} in which {self.name} works ")
 
-    @classmethod
-    def changecompanyname(cls, newcompany):
-        cls.company = newcompany
+#     @classmethod
+#  
 
-
-a = employee()
-a.name = ("hassan")
-a.show()
-a.changecompanyname("samsung")
-a.show()
-print(employee.company)
